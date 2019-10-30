@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="770bd6e1db3c0010eede70e239961900" sys_domain="global" table="x_418421_bigmarket_categorymaster" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-29 20:53:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>330bd6e1db3c0010eede70e239961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_418421_bigmarket_categorymaster" name="x_418421_bigmarket_categorymaster" sys_domain="global" view="Default view">770bd6e1db3c0010eede70e239961900</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_418421_bigmarket_categorymaster" sys_domain="global" view="Default view">e343522ddbf80010eede70e2399619f0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-29 20:53:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_418421_bigmarket_categorymaster</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-29 20:53:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>770bd6e1db3c0010eede70e239961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_418421_bigmarket_categorymaster</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BigMarket" source="x_418421_bigmarket">29f4d0e9db340010eede70e239961988</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BigMarket">29f4d0e9db340010eede70e239961988</sys_scope>
+            <sys_update_name>sys_ui_form_sections_770bd6e1db3c0010eede70e239961900</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-29 20:53:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

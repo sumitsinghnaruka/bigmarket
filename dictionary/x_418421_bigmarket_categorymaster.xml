@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="CategoryMaster" max_length="40" name="x_418421_bigmarket_categorymaster" type="collection">
+        <element display="true" label="Category Name" mandatory="true" max_length="40" name="category_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Parent Category" max_length="32" name="parent_category" reference="x_418421_bigmarket_categorymaster" type="reference"/>
+        <index name="index">
+            <element name="parent_category"/>
+        </index>
+    </element>
+</database>

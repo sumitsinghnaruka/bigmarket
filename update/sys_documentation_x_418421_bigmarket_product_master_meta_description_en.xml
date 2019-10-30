@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="meta_description" label="Meta Description" language="en" table="x_418421_bigmarket_product_master">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>meta_description</element>
+            <help/>
+            <hint/>
+            <label>Meta Description</label>
+            <language>en</language>
+            <name>x_418421_bigmarket_product_master</name>
+            <plural>Meta Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-30 06:10:36</sys_created_on>
+            <sys_id>f67ad871dbf04010eede70e2399619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Meta Description</sys_name>
+            <sys_package display_value="BigMarket" source="x_418421_bigmarket">29f4d0e9db340010eede70e239961988</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BigMarket">29f4d0e9db340010eede70e239961988</sys_scope>
+            <sys_update_name>sys_documentation_x_418421_bigmarket_product_master_meta_description_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-30 06:10:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

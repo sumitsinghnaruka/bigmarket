@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Product Master" max_length="40" name="x_418421_bigmarket_product_master" type="collection">
+        <element choice="1" label="Category" mandatory="true" max_length="32" name="category" reference="x_418421_bigmarket_categorymaster" type="reference">
+            <choice/>
+        </element>
+        <element label="Meta Description" max_length="40" name="meta_description" type="longint"/>
+        <element label="Meta Keywords" max_length="255" name="meta_keywords" type="longint"/>
+        <element label="Meta Title" max_length="40" name="meta_title" type="string"/>
+        <element label="Product Image" max_length="40" name="product_image" type="user_image"/>
+        <element label="Product Name" mandatory="true" max_length="40" name="product_name" type="string"/>
+        <element label="Product Price" mandatory="true" max_length="20" name="product_price" type="price"/>
+        <element label="Qty" mandatory="true" max_length="11" name="qty" type="integer"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+    </element>
+</database>
