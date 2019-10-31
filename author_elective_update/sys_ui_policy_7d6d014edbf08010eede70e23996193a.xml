@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_418421_bigmarket_product_master">product_price&gt;javascript:global.getCurrencyFilter('x_418421_bigmarket_product_master','product_price', 'USD;200')^EQ<item endquery="false" field="product_price" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:global.getCurrencyFilter('x_418421_bigmarket_product_master','product_price', 'USD;200')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Products Master UI Policy</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-31 04:34:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d6d014edbf08010eede70e23996193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Products Master UI Policy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BigMarket" source="x_418421_bigmarket">29f4d0e9db340010eede70e239961988</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BigMarket">29f4d0e9db340010eede70e239961988</sys_scope>
+        <sys_update_name>sys_ui_policy_7d6d014edbf08010eede70e23996193a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-31 04:34:00</sys_updated_on>
+        <table>x_418421_bigmarket_product_master</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BigMarket">29f4d0e9db340010eede70e239961988</application>
+        <file_path/>
+        <instance_id>550c8816dbf4ff040ae3ac44d4961987</instance_id>
+        <instance_name>dev81217</instance_name>
+        <name>sys_ui_policy_7d6d014edbf08010eede70e23996193a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_418421_bigmarket_product_master"&gt;product_price&amp;gt;javascript:global.getCurrencyFilter('x_418421_bigmarket_product_master','product_price', 'USD;200')^EQ&lt;item endquery="false" field="product_price" goto="false" newquery="false" operator="&amp;gt;" or="false" value="javascript:global.getCurrencyFilter('x_418421_bigmarket_product_master','product_price', 'USD;200')"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Products Master UI Policy&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-31 04:34:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7d6d014edbf08010eede70e23996193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Products Master UI Policy&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BigMarket" source="x_418421_bigmarket"&gt;29f4d0e9db340010eede70e239961988&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BigMarket"&gt;29f4d0e9db340010eede70e239961988&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_7d6d014edbf08010eede70e23996193a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-31 04:34:00&lt;/sys_updated_on&gt;&lt;table&gt;x_418421_bigmarket_product_master&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>891625866</payload_hash>
+        <record_name>Products Master UI Policy</record_name>
+        <reverted_from/>
+        <source>e9f4d0e9db340010eede70e23996198a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-31 04:34:00</sys_created_on>
+        <sys_id>d1fd054edbf08010eede70e2399619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e20177b880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-31 04:34:00</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>1dfd054e10f0801005c9944c546221f7</update_guid>
+        <update_guid_history>1dfd054e10f0801005c9944c546221f7:891625866</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-31 11:29:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>09601cb611624d7280a1bac9d00c1924</sys_id>
+        <sys_metadata>7d6d014edbf08010eede70e23996193a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Products Master UI Policy</sys_name>
+        <sys_package display_value="BigMarket" source="x_418421_bigmarket">29f4d0e9db340010eede70e239961988</sys_package>
+        <sys_parent display_value="Product Master">4f3818fddbb04010eede70e23996193e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BigMarket">29f4d0e9db340010eede70e239961988</sys_scope>
+        <sys_scope_delete display_value="">4922583409844fea97403297119dbfc4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_7d6d014edbf08010eede70e23996193a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_7d6d014edbf08010eede70e23996193a">d1fd054edbf08010eede70e2399619f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-31 11:29:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

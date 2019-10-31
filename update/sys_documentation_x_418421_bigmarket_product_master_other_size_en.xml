@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="other_size" label="Other Size" language="en" table="x_418421_bigmarket_product_master">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>other_size</element>
+            <help/>
+            <hint/>
+            <label>Other Size</label>
+            <language>en</language>
+            <name>x_418421_bigmarket_product_master</name>
+            <plural>Other Sizes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-31 11:52:09</sys_created_on>
+            <sys_id>7332be86db788010eede70e239961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Other Size</sys_name>
+            <sys_package display_value="BigMarket" source="x_418421_bigmarket">29f4d0e9db340010eede70e239961988</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BigMarket">29f4d0e9db340010eede70e239961988</sys_scope>
+            <sys_update_name>sys_documentation_x_418421_bigmarket_product_master_other_size_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-31 11:52:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

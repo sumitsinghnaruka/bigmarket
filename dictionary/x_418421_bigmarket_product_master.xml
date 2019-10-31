@@ -3,13 +3,28 @@
         <element choice="1" label="Category" mandatory="true" max_length="32" name="category" reference="x_418421_bigmarket_categorymaster" type="reference">
             <choice/>
         </element>
+        <element choice="1" label="Color" max_length="40" name="color" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="0" value="red"/>
+                <element inactive_on_update="false" label="Black" sequence="1" value="black"/>
+                <element inactive_on_update="false" label="Blue" sequence="2" value="blue"/>
+                <element inactive_on_update="false" label="Yellow" sequence="3" value="yellow"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
         <element label="Meta Description" max_length="40" name="meta_description" type="longint"/>
         <element label="Meta Keywords" max_length="255" name="meta_keywords" type="longint"/>
         <element label="Meta Title" max_length="40" name="meta_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="color" dependent_on_field="color" label="Other Size" mandatory="true" max_length="40" name="other_size" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
         <element label="Product Image" max_length="40" name="product_image" type="user_image"/>
         <element label="Product Name" mandatory="true" max_length="40" name="product_name" type="string"/>
         <element label="Product Price" mandatory="true" max_length="20" name="product_price" type="price"/>
         <element label="Qty" mandatory="true" max_length="11" name="qty" type="integer"/>
+        <element choice="1" label="Size" max_length="40" name="size" type="string">
+            <choice/>
+        </element>
         <index name="index">
             <element name="category"/>
         </index>

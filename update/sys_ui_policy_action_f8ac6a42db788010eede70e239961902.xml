@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>product_name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-31 11:27:56</sys_created_on>
+        <sys_id>f8ac6a42db788010eede70e239961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>product_name</sys_name>
+        <sys_package display_value="BigMarket" source="x_418421_bigmarket">29f4d0e9db340010eede70e239961988</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BigMarket">29f4d0e9db340010eede70e239961988</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f8ac6a42db788010eede70e239961902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-31 11:27:56</sys_updated_on>
+        <table>x_418421_bigmarket_product_master</table>
+        <ui_policy display_value="Product name should not be change on edit product">a33ce242db788010eede70e239961901</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
